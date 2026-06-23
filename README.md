@@ -1,4 +1,4 @@
-# Sergio Pujol
+# Sergi Pujol
 **AI & Python Developer · C · Currently at 42 Barcelona**
 
 Engineer transitioning into AI — building LLM pipelines, algorithm-heavy systems, and data tools with Python and C. Currently completing 42 Barcelona's Common Core.
