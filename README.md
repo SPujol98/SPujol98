@@ -5,8 +5,14 @@ Engineer transitioning into AI — building LLM pipelines, algorithm-heavy syste
 
 Open to roles in AI Engineering and Data Science.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sergiopserrano/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sergiopujol.98@gmail.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/sergiopserrano/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:sergiopujol.98@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 ---
 
