@@ -1,4 +1,4 @@
-# Sergi Pujol
+# Sergio Pujol
 **AI & Python Developer · C · Currently at 42 Barcelona**
 
 Engineer transitioning into AI — building LLM pipelines, algorithm-heavy systems, and data tools with Python and C. Currently completing 42 Barcelona's Common Core.
@@ -55,16 +55,26 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 
 **Languages**
 
-[![Languages](https://skillicons.dev/icons?i=python,c,bash&theme=dark)](https://skillicons.dev)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,c,bash&theme=dark" />
+  </a>
+</p>
 
 **AI / ML**
 
-![Python](https://img.shields.io/badge/LLMs-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/LLMs-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
+</p>
 
 **Tools**
 
-[![Tools](https://skillicons.dev/icons?i=git,linux,vim,vscode&theme=dark)](https://skillicons.dev)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,linux,vim,vscode&theme=dark" />
+  </a>
+</p>
 
