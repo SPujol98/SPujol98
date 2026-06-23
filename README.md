@@ -53,7 +53,7 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 
 ## ⚙️ Tech Stack
 
-**Languages**
+<p align="center"><strong>Languages</strong></p>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -61,7 +61,7 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
   </a>
 </p>
 
-**AI / ML**
+<p align="center"><strong>AI / ML</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/LLMs-FFD21E?style=flat&logo=huggingface&logoColor=black" />
@@ -70,11 +70,11 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
   <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
 </p>
 
-**Tools**
+<p align="center"><strong>Tools</strong></p>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,linux,vim,vscode&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=git,linux,pytest,vim,vscode&theme=dark" />
   </a>
 </p>
 
