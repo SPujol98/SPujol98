@@ -68,13 +68,14 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
   <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
 </p>
 
 <p align="center"><strong>Tools</strong></p>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,linux,pytest,vim,vscode&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=git,linux,vim,vscode&theme=dark" />
   </a>
 </p>
 
