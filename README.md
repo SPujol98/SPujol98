@@ -1,7 +1,8 @@
 # Sergio Pujol
-**AI & Python Developer · C · Currently at 42 Barcelona**
 
-Engineer transitioning into AI — building LLM pipelines, algorithm-heavy systems, and data tools with Python and C. Currently completing 42 Barcelona's Common Core.
+**AI Engineer · Python · LLMs · RAG · C**
+
+Engineer transitioning into AI — building LLM pipelines, RAG systems, and algorithm-heavy tools with Python and C. Currently completing 42 Barcelona's Common Core.
 
 Open to roles in AI Engineering and Data Science.
 
@@ -17,6 +18,17 @@ Open to roles in AI Engineering and Data Science.
 ---
 
 ## 📂 Selected Projects
+
+**[RAG against the machine](https://github.com/SPujol98/rag-against-the-machine)** — Hybrid RAG over a 1900+ file codebase `115/125`
+
+Answers natural-language questions about the vLLM codebase, fully local, no training. Hybrid BM25 + semantic retrieval, type-aware chunking that preserves code and Markdown structure, and `Qwen3-0.6B` for grounded generation — 83% recall@5 on docs, 69% on code, both above threshold.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![BM25](https://img.shields.io/badge/BM25-000000?style=flat)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+
+---
 
 **[Call Me Maybe](https://github.com/SPujol98/call-me-maybe)** — LLM Constrained Decoding `108/100`
 
@@ -72,6 +84,8 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 <p align="center">
   <img src="https://img.shields.io/badge/LLMs-FFD21E?style=flat&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/RAG-4B0082?style=flat" />
+  <img src="https://img.shields.io/badge/BM25-000000?style=flat" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
   <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
@@ -84,4 +98,3 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
     <img src="https://skillicons.dev/icons?i=git,linux,vim,vscode&theme=dark" />
   </a>
 </p>
-
