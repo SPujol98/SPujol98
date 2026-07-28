@@ -19,9 +19,14 @@ Open to roles in AI Engineering and Data Science.
 
 ## 📂 Selected Projects
 
-**[RAG against the machine](https://github.com/SPujol98/rag-against-the-machine)** — Hybrid RAG over a 1900+ file codebase `115/125`
+**[RAG against the machine](https://github.com/SPujol98/rag-against-the-machine)** — Repository-Scale Hybrid Retrieval
 
-Answers natural-language questions about the vLLM codebase, fully local, no training. Hybrid BM25 + semantic retrieval, type-aware chunking that preserves code and Markdown structure, and `Qwen3-0.6B` for grounded generation — 83% recall@5 on docs, 69% on code, both above threshold.
+Answers natural-language questions about the vLLM codebase (1900+ files), fully local — no training, no external APIs. 83% recall@5 on docs, 69% on code.
+
+- **BM25 from scratch** — Robertson-style scoring over a hand-built inverted index, no `bm25s` or `rank-bm25`
+- **Identifier-aware tokenization** — camelCase/snake_case decomposition on top of stemming; moved code recall@5 from 48% to 65% on its own
+- **Hybrid ranking** — BM25 and `all-MiniLM-L6-v2` cosine scores min-max normalized and blended at `alpha=0.85`, tuned empirically against the eval sets
+- **Recall@k evaluation suite** — a 200-question benchmark that drove every retrieval decision, plus a CLI and a FastAPI layer over the same pipeline
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
@@ -30,7 +35,7 @@ Answers natural-language questions about the vLLM codebase, fully local, no trai
 
 ---
 
-**[Call Me Maybe](https://github.com/SPujol98/call-me-maybe)** — LLM Constrained Decoding `108/100`
+**[Call Me Maybe](https://github.com/SPujol98/call-me-maybe)** — LLM Constrained Decoding
 
 A constrained decoding pipeline that forces a 0.6B LLM to generate 100% valid JSON function calls by intercepting token selection at every step. No retries, no post-processing — invalid output is structurally impossible by construction.
 
@@ -41,7 +46,7 @@ A constrained decoding pipeline that forces a 0.6B LLM to generate 100% valid JS
 
 ---
 
-**[Fly-in](https://github.com/SPujol98/fly-in)** — Multi-Drone Routing Simulator `110/100`
+**[Fly-in](https://github.com/SPujol98/fly-in)** — Multi-Drone Routing Simulator
 
 Routes a fleet of drones through a constrained graph using a modified Dijkstra that handles zone capacities, restricted airspace, and priority lanes simultaneously. Visualized live with Pygame.
 
@@ -51,7 +56,7 @@ Routes a fleet of drones through a constrained graph using a modified Dijkstra t
 
 ---
 
-**[Codexion](https://github.com/SPujol98/codexion)** — Concurrency Simulation `100/100`
+**[Codexion](https://github.com/SPujol98/codexion)** — Concurrency Simulation
 
 A programmer's take on the Dining Philosophers problem in C. Deadlock-free by design through global lock ordering, starvation-free through a per-resource min-heap with FIFO and EDF scheduling policies.
 
@@ -60,7 +65,7 @@ A programmer's take on the Dining Philosophers problem in C. Deadlock-free by de
 
 ---
 
-**[A-Maze-ing](https://github.com/SPujol98/a-maze-ing)** — Maze Generator & Solver `118/100`
+**[A-Maze-ing](https://github.com/SPujol98/a-maze-ing)** — Maze Generator & Solver
 
 Generates configurable mazes via recursive backtracking, solves them with BFS, and renders everything in an interactive terminal UI with live color themes. Core logic packaged as a reusable Python library.
 
