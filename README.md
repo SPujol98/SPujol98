@@ -32,6 +32,8 @@ Answers natural-language questions about the vLLM codebase (1900+ files), fully 
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![BM25](https://img.shields.io/badge/BM25-000000?style=flat)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
 ---
 
@@ -82,15 +84,16 @@ A programmer's take on the Dining Philosophers problem in C. Deadlock-free by de
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![POSIX](https://img.shields.io/badge/POSIX_Threads-FCC624?style=flat&logo=linux&logoColor=black)
+![Valgrind](https://img.shields.io/badge/Valgrind_Helgrind-303284?style=flat)
 
 ---
 
 **[A-Maze-ing](https://github.com/SPujol98/a-maze-ing)** — Maze Generator & Solver
 
-Generates configurable mazes via recursive backtracking, solves them with BFS, and renders everything in an interactive terminal UI with live color themes. Core logic packaged as a reusable Python library.
+Generates configurable mazes via recursive backtracking, solves them with BFS, and renders everything in an interactive terminal UI with live color themes. Core logic packaged as a reusable Python library — stdlib only, zero runtime dependencies.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+![Zero-deps](https://img.shields.io/badge/stdlib_only-3776AB?style=flat)
 
 ---
 
