@@ -46,6 +46,22 @@ A constrained decoding pipeline that forces a 0.6B LLM to generate 100% valid JS
 
 ---
 
+**[Pac-Man 42](https://github.com/SPujol98/pac-man)** — Arcade-Grade Game Engine from Scratch
+
+A full recreation of the 1980 arcade classic in Python/Pygame: procedurally generated mazes, four ghosts with distinct hunting personalities, frightened-mode waves, persistent highscores, and a neon/CRT restyle — all built on a strict MVC split where the simulation runs as plain Python with zero rendering dependencies.
+
+- **Hybrid grid/pixel movement** — entities decide on a discrete grid but render interpolated in continuous space, with buffered input and clamped delta time for frame-rate-independent, tunnel-proof physics
+- **Ghost AI as an OCP hierarchy** — an abstract `Ghost` FSM (chase/scatter/frightened/eaten) on a shared wave timer, with Blinky, Pinky, Inky, and Clyde each defining their personality in one overridden method
+- **Zero-crash engineering** — a self-healing Pydantic config (invalid keys are clamped, never fatal) and anti-tampering highscore persistence that survives hand-edited or corrupted files without a single traceback
+- **Parallel two-person architecture** — model and view built simultaneously against a fixed entity contract, so the simulation and the UI/menus/data layers never touched each other's code
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-00B140?style=flat&logo=python&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+![mypy-strict](https://img.shields.io/badge/mypy-strict-2B5B84?style=flat)
+
+---
+
 **[Fly-in](https://github.com/SPujol98/fly-in)** — Multi-Drone Routing Simulator
 
 Routes a fleet of drones through a constrained graph using a modified Dijkstra that handles zone capacities, restricted airspace, and priority lanes simultaneously. Visualized live with Pygame.
