@@ -39,6 +39,10 @@ Answers natural-language questions about the vLLM codebase (1900+ files), fully 
 
 A constrained decoding pipeline that forces a 0.6B LLM to generate 100% valid JSON function calls by intercepting token selection at every step. No retries, no post-processing — invalid output is structurally impossible by construction.
 
+- **FSM in lockstep with generation** — a finite-state machine tracks the JSON structure token by token and masks every illegal token to `-inf` before sampling; validity is enforced at the sampler, not repaired afterwards
+- **Single-token fast path** — when exactly one token is legal, the forward pass is skipped entirely, cutting model calls by ~60-75% on structural tokens
+- **BPE-aware string handling** — precomputed token sets handle multi-character tokens (a single token encoding `."` breaks naive character matching), eliminating quote-hallucination failures
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
