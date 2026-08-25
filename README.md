@@ -52,9 +52,9 @@ A constrained decoding pipeline that forces a 0.6B LLM to generate 100% valid JS
 
 ---
 
-**[Pac-Man 42](https://github.com/SPujol98/pac-man)** — Arcade-Grade Game Engine from Scratch
+**[Pac-Man 42](https://github.com/SPujol98/pac-man)** — Arcade Game Engine & Ghost AI
 
-A full recreation of the 1980 arcade classic in Python/Pygame: procedurally generated mazes, four ghosts with distinct hunting personalities, frightened-mode waves, persistent highscores, and a neon/CRT restyle — all built on a strict MVC split where the simulation runs as plain Python with zero rendering dependencies.
+The 1980 arcade classic rebuilt in Python/Pygame: procedurally generated mazes, four ghosts with distinct hunting personalities, persistent highscores, and a neon/CRT restyle. The whole simulation runs as plain Python with zero rendering dependencies, kept honest by a strict MVC split.
 
 - **Hybrid grid/pixel movement** — entities decide on a discrete grid but render interpolated in continuous space, with buffered input and clamped delta time for frame-rate-independent, tunnel-proof physics
 - **Ghost AI as an OCP hierarchy** — an abstract `Ghost` FSM (chase/scatter/frightened/eaten) on a shared wave timer, with Blinky, Pinky, Inky, and Clyde each defining their personality in one overridden method
