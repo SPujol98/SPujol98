@@ -99,36 +99,42 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 
 ## ⚙️ Tech Stack
 
-<p align="center"><strong>Languages</strong></p>
+<div align="center">
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,c,bash&theme=dark" />
-  </a>
-  <img src="assets/sql.svg" height="48" alt="SQL" />
-</p>
+<h3>Languages</h3>
 
-<p align="center"><strong>AI / ML</strong></p>
+<img src="https://iconic-api.onrender.com/dark/python" width="58" alt="Python" title="Python" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/c" width="58" alt="C" title="C" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/postgresql" width="58" alt="SQL" title="SQL" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/bash" width="58" alt="Bash" title="Bash" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LLMs-FFD21E?style=flat&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/RAG-4B0082?style=flat" />
-  <img src="https://img.shields.io/badge/BM25-000000?style=flat" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Constrained_Decoding-4B0082?style=flat" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
-</p>
+<h3>AI / ML</h3>
 
-<p align="center"><strong>Tools</strong></p>
+<img src="https://img.shields.io/badge/LLMs-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/RAG-4B0082?style=flat" />
+<img src="https://img.shields.io/badge/BM25-000000?style=flat" />
+<br/>
+<img src="https://img.shields.io/badge/Constrained_Decoding-4B0082?style=flat" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
+<img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,linux,vim,vscode&theme=dark" />
-  </a>
-</p>
+<h3>Tools</h3>
+
+<img src="https://iconic-api.onrender.com/dark/git" width="58" alt="Git" title="Git" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/linux" width="58" alt="Linux" title="Linux" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/pytest" width="58" alt="Pytest" title="Pytest" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/vim" width="58" alt="Vim" title="Vim" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/vscode" width="58" alt="VS Code" title="VS Code" />
+
+</div>
