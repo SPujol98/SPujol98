@@ -103,7 +103,7 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,c,bash&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=python,c,sql,bash&theme=dark" />
   </a>
 </p>
 
@@ -111,9 +111,12 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 
 <p align="center">
   <img src="https://img.shields.io/badge/LLMs-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/RAG-4B0082?style=flat" />
   <img src="https://img.shields.io/badge/BM25-000000?style=flat" />
+  <img src="https://img.shields.io/badge/Constrained_Decoding-4B0082?style=flat" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
   <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
