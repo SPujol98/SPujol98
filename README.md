@@ -97,6 +97,17 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 
 ---
 
+**[Inception](https://github.com/SPujol98/inception)** — Docker Web Infrastructure
+
+NGINX, WordPress and MariaDB built from scratch with Docker Compose inside an Alpine VM: custom Dockerfiles, TLS-only entrypoint, Docker secrets, and an idempotent WP-CLI bootstrap. Only port 443 leaves the network.
+
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat&logo=nginx&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+
+---
+
 ## ⚙️ Tech Stack
 
 <div align="center">
@@ -130,6 +141,8 @@ Generates configurable mazes via recursive backtracking, solves them with BFS, a
 <img src="https://iconic-api.onrender.com/dark/git" width="58" alt="Git" title="Git" />
 &nbsp;&nbsp;
 <img src="https://iconic-api.onrender.com/dark/linux" width="58" alt="Linux" title="Linux" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/docker" width="58" alt="Docker" title="Docker" />
 &nbsp;&nbsp;
 <img src="https://iconic-api.onrender.com/dark/pytest" width="58" alt="Pytest" title="Pytest" />
 &nbsp;&nbsp;
