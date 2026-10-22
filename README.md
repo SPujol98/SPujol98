@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Sergio Pujol — AI Engineer" width="100%"/>
+  <img src="./TheBanner.svg" alt="Sergio Pujol — AI Engineer" width="100%"/>
 </p>
 
 # Sergio Pujol
