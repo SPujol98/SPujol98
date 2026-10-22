@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./banner.svg" alt="Sergio Pujol — AI Engineer" width="100%"/>
+</p>
+
 # Sergio Pujol
 
 **AI Engineer · Python · LLMs · RAG · C**
