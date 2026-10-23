@@ -2,8 +2,6 @@
   <img src="./TheBanner.svg" alt="Sergio Pujol — AI Engineer" width="100%"/>
 </p>
 
-**AI Engineer · Python · LLMs · RAG · C**
-
 Engineer transitioning into AI — building LLM pipelines, RAG systems, and algorithm-heavy tools with Python and C. Currently completing 42 Barcelona's Common Core.
 
 Open to roles in AI Engineering and Data Science.
