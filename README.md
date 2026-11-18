@@ -19,6 +19,25 @@ Open to roles in AI Engineering and Data Science.
 
 ## 📂 Selected Projects
 
+**[lazyhunt](https://github.com/SPujol98/lazyhunt)** — Self-Hosted AI Job-Search Assistant
+
+Built to automate my own job search, then released as open source. A browser extension watches the job portals you choose from your own logged-in tab, a local bot scores every new offer against a profile of verified facts, and Telegram delivers the verdict plus a tailored CV and cover letter. It never invents experience.
+
+- **LLM judge with deterministic gates** — every offer gets a 0-100 score and a verdict citing the candidate's own claims; location, language, eligibility and hard requirements are checked by code, not left to the model
+- **Grounded generation** — CVs and cover letters are assembled only from a curated claims database, so nothing unverifiable can reach an application
+- **Provider-agnostic and local-first** — runs on your own Claude Code CLI, an Anthropic API key or any OpenAI-compatible endpoint; offers live in SQLite and the extension talks to the bot over a loopback-only, secret-protected bridge
+- **Production hygiene** — 3,000+ tests, `mypy --strict`, CI with CodeQL and gitleaks, and a curated public export that scans for personal data before anything is published
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-4B0082?style=flat)
+![Telegram](https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat&logo=telegram&logoColor=white)
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension_MV3-4285F4?style=flat&logo=googlechrome&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+![mypy-strict](https://img.shields.io/badge/mypy-strict-2B5B84?style=flat)
+
+---
+
 **[RAG against the machine](https://github.com/SPujol98/rag-against-the-machine)** — Repository-Scale Hybrid Retrieval
 
 Answers natural-language questions about the vLLM codebase (1900+ files), fully local — no training, no external APIs. 83% recall@5 on docs, 69% on code.
