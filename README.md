@@ -39,7 +39,7 @@ I built it to automate my own job search and released it as open source. A brows
 - **Grounded generation** — CVs and cover letters (also as PDF) are assembled only from a curated claims database, and every letter passes a deterministic quality gate before it is shown
 - **Built for any profile** — user-defined role families, per-family filters and thresholds, and an English or Spanish interface, all from plain configuration files
 - **Provider-agnostic and local-first** — runs on your own Claude Code CLI, an Anthropic API key or any OpenAI-compatible endpoint; offers live in SQLite and the extension talks to the bot over a loopback-only, secret-protected bridge
-- **Production hygiene** — 3,700+ tests, `mypy --strict`, CI with CodeQL and gitleaks, schema migrations verified against realistic data, and a curated public export that scans for personal data before anything is published
+- **Production hygiene** — 3,400+ tests, `mypy --strict`, CI with CodeQL and gitleaks, schema migrations verified against realistic data, and a curated public export that scans for personal data before anything is published
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![LLMs](https://img.shields.io/badge/LLMs-4B0082?style=flat)
