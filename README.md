@@ -4,7 +4,7 @@
 
 Engineer transitioning into AI — building LLM pipelines, RAG systems, and algorithm-heavy tools with Python and C. Currently completing 42 Barcelona's Common Core.
 
-Open to roles in AI Engineering and Data Science.
+Open to roles in AI Engineering and Python Development.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sergiopserrano/">
@@ -171,6 +171,8 @@ NGINX, WordPress and MariaDB built from scratch with Docker Compose inside an Al
 <img src="https://iconic-api.onrender.com/dark/postgresql" width="58" alt="SQL" title="SQL" />
 &nbsp;&nbsp;
 <img src="https://iconic-api.onrender.com/dark/bash" width="58" alt="Bash" title="Bash" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/js" width="58" alt="JavaScript" title="JavaScript" />
 
 <h3>AI / ML</h3>
 
@@ -185,6 +187,10 @@ NGINX, WordPress and MariaDB built from scratch with Docker Compose inside an Al
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
 <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white" />
 <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/AI_Agents-4B0082?style=flat" />
+<img src="https://img.shields.io/badge/MCP-000000?style=flat" />
+<img src="https://img.shields.io/badge/LLM--as--a--Judge-4B0082?style=flat" />
 
 <h3>Tools</h3>
 
@@ -198,6 +204,14 @@ NGINX, WordPress and MariaDB built from scratch with Docker Compose inside an Al
 &nbsp;&nbsp;
 <img src="https://iconic-api.onrender.com/dark/vim" width="58" alt="Vim" title="Vim" />
 &nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/github-actions" width="58" alt="GitHub Actions" title="GitHub Actions" />
+&nbsp;&nbsp;
+<img src="https://iconic-api.onrender.com/dark/chrome" width="58" alt="Chrome Extensions" title="Chrome Extensions (MV3)" />
+&nbsp;&nbsp;
 <img src="https://iconic-api.onrender.com/dark/vscode" width="58" alt="VS Code" title="VS Code" />
+<br/><br/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat&logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/uv-DE5FE9?style=flat&logo=uv&logoColor=white" />
 
 </div>
