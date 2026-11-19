@@ -17,16 +17,29 @@ Open to roles in AI Engineering and Data Science.
 
 ---
 
-## 📂 Selected Projects
+## ⭐ Featured Project
 
-**[lazyhunt](https://github.com/SPujol98/lazyhunt)** — Self-Hosted AI Job-Search Assistant
+<p align="center">
+  <a href="https://github.com/SPujol98/lazyhunt">
+    <img src="https://raw.githubusercontent.com/SPujol98/lazyhunt/main/assets/readme/hero.svg" alt="lazyhunt: the job hunt that does the scrolling" width="100%"/>
+  </a>
+</p>
 
-Built to automate my own job search, then released as open source. A browser extension watches the job portals you choose from your own logged-in tab, a local bot scores every new offer against a profile of verified facts, and Telegram delivers the verdict plus a tailored CV and cover letter. It never invents experience.
+<p align="center">
+  <a href="https://github.com/SPujol98/lazyhunt/releases"><img src="https://img.shields.io/github/v/release/SPujol98/lazyhunt?style=flat&color=F4A940" alt="Latest release"/></a>
+  <a href="https://github.com/SPujol98/lazyhunt/actions/workflows/ci.yml"><img src="https://github.com/SPujol98/lazyhunt/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+  <img src="https://img.shields.io/badge/license-Apache--2.0-4E8A55?style=flat" alt="Apache-2.0"/>
+</p>
+
+**[lazyhunt](https://github.com/SPujol98/lazyhunt)** — Self-Hosted AI Job-Search Assistant · *my personal project*
+
+I built it to automate my own job search and released it as open source. A browser extension watches the job portals you choose from your own logged-in tab, a local bot scores every new offer against a profile of verified facts, and Telegram delivers the verdict, a tailored CV and a cover letter. It never invents experience.
 
 - **LLM judge with deterministic gates** — every offer gets a 0-100 score and a verdict citing the candidate's own claims; location, language, eligibility and hard requirements are checked by code, not left to the model
-- **Grounded generation** — CVs and cover letters are assembled only from a curated claims database, so nothing unverifiable can reach an application
+- **Grounded generation** — CVs and cover letters (also as PDF) are assembled only from a curated claims database, and every letter passes a deterministic quality gate before it is shown
+- **Built for any profile** — user-defined role families, per-family filters and thresholds, and an English or Spanish interface, all from plain configuration files
 - **Provider-agnostic and local-first** — runs on your own Claude Code CLI, an Anthropic API key or any OpenAI-compatible endpoint; offers live in SQLite and the extension talks to the bot over a loopback-only, secret-protected bridge
-- **Production hygiene** — 3,000+ tests, `mypy --strict`, CI with CodeQL and gitleaks, and a curated public export that scans for personal data before anything is published
+- **Production hygiene** — 3,700+ tests, `mypy --strict`, CI with CodeQL and gitleaks, schema migrations verified against realistic data, and a curated public export that scans for personal data before anything is published
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![LLMs](https://img.shields.io/badge/LLMs-4B0082?style=flat)
@@ -35,6 +48,24 @@ Built to automate my own job search, then released as open source. A browser ext
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
 ![mypy-strict](https://img.shields.io/badge/mypy-strict-2B5B84?style=flat)
+
+---
+
+## 📂 Selected Projects
+
+**[Agent Smith](https://github.com/SPujol98/agent-smith)** — Code-First Agentic Framework · *team project, 42 Barcelona*
+
+An autonomous agent that reasons, writes Python, runs it inside a secure sandbox and iterates on the result until it solves the task, built for programming problems (MBPP) and real software-engineering issues (SWE-bench). Built without any agent orchestration library: instead of JSON tool calls, the model answers with Python code in a Thought → Code → Observation loop.
+
+- **Secure sandbox (my part)** — every block of LLM-generated code is validated by AST before it runs, then executed behind filesystem, builtins, network and timeout guards, configured from a JSON policy
+- **MCP tooling (my part)** — Model Context Protocol servers for MBPP and SWE-bench that expose the agent's tools, plus the client side that injects them into the sandbox as plain Python functions
+- **Interactive REPL** — the same sandbox and tools available from the command line, to try agent code by hand
+- Built with two teammates; the orchestrator and benchmark agents are shared work
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat)
+![LLMs](https://img.shields.io/badge/LLM_Agents-4B0082?style=flat)
+![Sandbox](https://img.shields.io/badge/AST_Sandbox-2B5B84?style=flat)
 
 ---
 
